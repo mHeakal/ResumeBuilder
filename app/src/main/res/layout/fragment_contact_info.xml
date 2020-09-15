@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".0"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="CONTACT INFORMATION"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25"
+        android:gravity="left"
+        android:padding="10sp"
+        android:text=""
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".7"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".50"
+                android:gravity="top"
+                android:padding="10sp"
+                android:text="@string/menu_contact_name"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edit_contact_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".50"
+                android:ems="10"
+                android:gravity="bottom"
+                android:hint="Name"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".7"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtViewSchool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".50"
+                android:gravity="top"
+                android:padding="10sp"
+                android:text="@string/menu_contact_phone"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edit_contact_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".50"
+                android:ems="10"
+                android:gravity="bottom"
+                android:hint="Phone Number"
+                android:inputType="phone" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".7"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtViewYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".30"
+                android:gravity="top"
+                android:padding="10sp"
+                android:text="@string/menu_contact_address"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edit_contact_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".70"
+                android:ems="10"
+                android:gravity="bottom"
+                android:hint="Contact Address"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".7"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtViewDisc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".30"
+                android:gravity="top"
+                android:padding="10sp"
+                android:text="@string/menu_contact_email"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edit_menu_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".70"
+                android:ems="10"
+                android:gravity="bottom"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".7"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtViewTechn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".30"
+                android:gravity="top"
+                android:padding="10sp"
+                android:text="@string/menu_contact_linkedin"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edit_contact_linkedin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".70"
+                android:ems="10"
+                android:gravity="bottom"
+                android:hint="LinkedIn "
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_contact_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5sp"
+        android:layout_weight=".10"
+        android:padding="10sp"
+        android:text="Add Contact Information" />
+
+    <Button
+        android:id="@+id/btn_contact_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".10"
+        android:padding="10sp"
+        android:text="Show Contact Inforamtion" />
+
+    <TextView
+        android:id="@+id/tv_showdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:gravity="left"
+        android:padding="10sp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+</LinearLayout>

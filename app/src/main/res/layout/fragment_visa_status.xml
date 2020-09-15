@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".50"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/menu_visa_status"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".10"
+        android:padding="10sp"
+        android:text="Select visa type:"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/visa_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".15"
+        android:padding="20sp" />
+
+    <TextView
+        android:id="@+id/txtDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".50"
+        android:gravity="left"
+        android:padding="10sp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/readMore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".20"
+        android:text="Read More" />
+
+
+</LinearLayout>

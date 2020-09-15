@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="edu.mum.resumebuilder.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_academic"
+        android:name="edu.mum.resumebuilder.ui.academic.AcademicFragment"
+        android:label="@string/menu_academic"
+        tools:layout="@layout/fragment_academic" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="edu.mum.resumebuilder.ui.contactinfo.ContactInfoFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/fragment_contact_info"
+        tools:ignore="DuplicateIds" />
+
+
+    <fragment
+        android:id="@+id/nav_personal_experience"
+        android:name="edu.mum.resumebuilder.ui.personal.PersonalExperienceFragment"
+        android:label="@string/menu_personal_experience"
+        tools:layout="@layout/fragment_personal_experience" />
+
+
+    <fragment
+        android:id="@+id/nav_tech_skills"
+        android:name="edu.mum.resumebuilder.ui.tech.TechnicalSkillsFragment"
+        android:label="@string/menu_tech_skills"
+        tools:layout="@layout/fragment_technical_skills" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="edu.mum.resumebuilder.ui.core.CoreCompetenciesFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_core_competencies" />
+
+    <fragment
+        android:id="@+id/nav_visa_status"
+        android:name="edu.mum.resumebuilder.ui.visa.VisaStatusFragment"
+        android:label="@string/menu_visa_status"
+        tools:layout="@layout/fragment_visa_status" />
+</navigation>

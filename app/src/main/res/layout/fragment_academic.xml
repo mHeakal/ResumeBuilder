@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".0"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/menu_academic"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25"
+        android:gravity="left"
+        android:padding="10sp"
+        android:text="@string/brief_cool_projects"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".7"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".10"
+                android:gravity="top"
+                android:padding="10sp"
+                android:text="Project Title:"
+                android:textSize="10dp" />
+
+            <EditText
+                android:id="@+id/editTextPro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".10"
+                android:ems="10"
+                android:gravity="bottom"
+                android:hint="Your Project Title"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".7"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtViewSchool"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".10"
+                android:gravity="top"
+                android:padding="10sp"
+                android:text="School:"
+                android:textSize="10dp" />
+
+            <EditText
+                android:id="@+id/editTextSch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".10"
+                android:ems="10"
+                android:gravity="bottom"
+                android:hint="Which School"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".7"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtViewYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".10"
+                android:gravity="top"
+                android:padding="10sp"
+                android:text="Projedct Year:"
+                android:textSize="10dp" />
+
+            <EditText
+                android:id="@+id/editTextYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".10"
+                android:ems="10"
+                android:gravity="bottom"
+                android:hint="Which Year"
+                android:inputType="date" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".7"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtViewDisc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".10"
+                android:gravity="top"
+                android:padding="10sp"
+                android:text="Projedct Description:"
+                android:textSize="10dp" />
+
+            <EditText
+                android:id="@+id/editTextDisc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".10"
+                android:ems="10"
+                android:gravity="bottom"
+                android:hint="Describe your project"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".7"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".10"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtViewTechn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".10"
+                android:gravity="top"
+                android:padding="10sp"
+                android:text="Projedct Technologies:"
+                android:textSize="10dp" />
+
+            <EditText
+                android:id="@+id/editTextTechn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".10"
+                android:ems="10"
+                android:gravity="bottom"
+                android:hint="What technologies you used"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/submitpro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5sp"
+        android:layout_weight=".10"
+        android:padding="10sp"
+        android:text="Add new project" />
+
+    <Button
+        android:id="@+id/showpro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".10"
+        android:padding="10sp"
+        android:text="Show all projects" />
+
+    <TextView
+        android:id="@+id/tvpro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:gravity="left"
+        android:padding="10sp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp" />
+</LinearLayout>
